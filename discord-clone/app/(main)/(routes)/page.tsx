@@ -1,10 +1,5 @@
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  return (
-    <div className="">
-      <p className="text-3xl font-bold text-indigo-600">Hello Discort clone</p>
-      <Button>Click Me</Button>
-    </div>
-  );
+  return <div className="">This is a protected route</div>;
 }
